@@ -2,7 +2,7 @@
 
 const type = require('vanille-type');
 
-const NotEmptyString = type('not empty string', s => type(String, s) && s.trim().length > 0);
+const NotEmptyString = type('not empty string', s => type(String)(s) && s.trim().length > 0);
 const DashifiedString = type('dashified string', s => dashify(s) === s);
 
 const NamedEntity = type({ name: NotEmptyString });
