@@ -28,6 +28,7 @@ const layer = {
 
 // "generators" and "layers" are nosg reserved layers names
 // "components-set", "generator" and "layer" are nosg reserved generators names
+// "nosg" is a reserved components set name
 
 //component path
 set/layer/component // full path
